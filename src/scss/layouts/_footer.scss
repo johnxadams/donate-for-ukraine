@@ -1,0 +1,28 @@
+footer {
+@include flex-column-jcEvenly-aiCenter;
+    article{
+        border: wheat 2px solid;
+        width: 80%;
+        height: 35%;
+    }
+    article:first-child {
+        background-color: #013975 ;
+        @include flex-jcCenter-aiCenter;
+    }
+    article:nth-child(2) {
+        background-color: #9e8619;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div:first-child {
+            border: 2px white dotted;
+            width: 70%;
+            height: 4rem;
+            @include flex-jcCenter-aiCenter;
+        }
+    }
+    .author-line {
+        color: rgb(163, 163, 163);
+    }
+}

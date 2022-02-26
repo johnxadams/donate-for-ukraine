@@ -26,8 +26,6 @@ header {
 
 main {
   grid-area: main;
-  display: flex;
-  flex-direction: column;
 }
 
 footer {
@@ -56,7 +54,11 @@ footer {
   margin-bottom: 2%;
 }
 
-article {
+main {
+  display: flex;
+  flex-direction: column;
+}
+main article {
   border: 5px black solid;
   width: auto;
   height: 20vh;
@@ -64,7 +66,7 @@ article {
   display: flex;
   flex-direction: column;
 }
-article .bank-name-section {
+main article .bank-name-section {
   border: 2px blue dashed;
   width: auto;
   height: 40%;
@@ -73,18 +75,18 @@ article .bank-name-section {
   align-items: center;
   justify-content: space-evenly;
 }
-article .bank-name-section div:first-child {
+main article .bank-name-section div:first-child {
   border: 2px green dashed;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
 }
-article .bank-name-section div:nth-child(2) {
+main article .bank-name-section div:nth-child(2) {
   border: 2px red dashed;
   width: 14rem;
   height: 2.5rem;
 }
-article .bank-info-section-container {
+main article .bank-info-section-container {
   border: 2px goldenrod dashed;
   width: auto;
   height: 60%;
@@ -92,10 +94,46 @@ article .bank-info-section-container {
   align-items: center;
   justify-content: center;
 }
-article .bank-info-section-container div:first-child {
+main article .bank-info-section-container div:first-child {
   border: 2px goldenrod solid;
   width: 85%;
   height: 90%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer article {
+  border: wheat 2px solid;
+  width: 80%;
+  height: 35%;
+}
+footer article:first-child {
+  background-color: #013975;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer article:nth-child(2) {
+  background-color: #9e8619;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer article:nth-child(2) div:first-child {
+  border: 2px white dotted;
+  width: 70%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .author-line {
+  color: #a3a3a3;
 }
 
 body {

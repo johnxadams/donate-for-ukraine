@@ -1,41 +1,45 @@
-article {
-    border: 5px black solid;
-    width: auto;
-    height: 20vh;
-    margin-bottom: 2%;
-    @include flex-column;
+main {
+        display: flex;
+        flex-direction: column;
+        article {
+        border: 5px black solid;
+        width: auto;
+        height: 20vh;
+        margin-bottom: 2%;
+        @include flex-column;
 
-    .bank-name-section {
-        border: 2px blue dashed;
-        width: auto;
-        height: 40%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        div:first-child {
-            border: 2px green dashed;
-            width: 3rem;
-            height: 3rem;
-            border-radius: 50%;
+        .bank-name-section {
+            border: 2px blue dashed;
+            width: auto;
+            height: 40%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            div:first-child {
+                border: 2px green dashed;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+            }
+            div:nth-child(2) {
+                border: 2px red dashed;
+                width: 14rem;
+                height: 2.5rem;
+            }
         }
-        div:nth-child(2) {
-            border: 2px red dashed;
-            width: 14rem;
-            height: 2.5rem;
-        }
-    }
-    .bank-info-section-container {
-        border: 2px goldenrod dashed;
-        width: auto;
-        height: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        div:first-child {
-            border: 2px goldenrod solid;
-            width: 85%;
-            height: 90%;
+        .bank-info-section-container {
+            border: 2px goldenrod dashed;
+            width: auto;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div:first-child {
+                border: 2px goldenrod solid;
+                width: 85%;
+                height: 90%;
+            }
         }
     }
 }

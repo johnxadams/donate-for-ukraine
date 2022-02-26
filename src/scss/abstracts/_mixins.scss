@@ -3,6 +3,58 @@
     justify-content: center;
     align-items: center;
 }
+@mixin flex-jcStart-aiCenter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flex-jcCenter-aiStart {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+@mixin flex-jcEvenly-aiCenter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin flex-fdColumn-aiEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@mixin flex-aiEnd {
+    display: flex;
+    align-items: flex-end;
+}
+@mixin flex-aiCenter {
+    display: flex;
+    align-items: center;
+}
+@mixin flex-jcEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin flex-jcCenter {
+    display: flex;
+    justify-content: center;
+}
+@mixin flex-aiCenter {
+    display: flex;
+    align-items: center;
+}
+@mixin  flex-column-jcEvenly-aiCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin  flex-column-jcCenter-aiCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @mixin flex-column {
     display: flex;
     flex-direction: column;
