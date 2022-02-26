@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.body-grid {
+  display: grid;
+  max-width: 100vw;
+  height: 50vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 27vh 100vh 30vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  grid-area: header;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #3f3434;
+}
+
+.ukraine-flag-blue {
+  width: 100%;
+  height: 50%;
+  background-color: #0258B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.ukraine-flag-yellow {
+  width: 100%;
+  height: 50%;
+  background-color: #F6CF25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+article {
+  border: 5px black solid;
+  width: auto;
+  height: 20vh;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+article .bank-name-section {
+  border: 2px blue dashed;
+  width: auto;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+article .bank-name-section div:first-child {
+  border: 2px green dashed;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+article .bank-name-section div:nth-child(2) {
+  border: 2px red dashed;
+  width: 14rem;
+  height: 2.5rem;
+}
+article .bank-info-section-container {
+  border: 2px goldenrod dashed;
+  width: auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article .bank-info-section-container div:first-child {
+  border: 2px goldenrod solid;
+  width: 85%;
+  height: 90%;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */
