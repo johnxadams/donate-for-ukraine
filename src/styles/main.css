@@ -177,6 +177,15 @@ footer .author-line {
   font-size: 13px;
 }
 
+@media only screen and (min-width: 1400px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  body .body-grid {
+    width: 80vw;
+  }
+}
 body {
   max-width: 100%;
   height: 100vh;
