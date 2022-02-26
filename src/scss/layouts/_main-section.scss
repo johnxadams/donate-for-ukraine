@@ -4,7 +4,7 @@ main {
         article {
         border: 5px black solid;
         width: auto;
-        height: 20vh;
+        height: 25vh;
         margin-bottom: 2%;
         @include flex-column;
 
@@ -22,10 +22,18 @@ main {
                 height: 3rem;
                 border-radius: 50%;
             }
-            div:nth-child(2) {
+            .bank-name {
                 border: 2px red dashed;
                 width: 14rem;
-                height: 2.5rem;
+                height: 3rem;
+                @include flex-jcCenter-aiCenter;
+                font-size: 1.2rem;
+                a:link,
+                a:visited {
+                    text-decoration: none;
+                    color: $ukraine-blue;
+                    // background-color: green;
+                }
             }
         }
         .bank-info-section-container {
@@ -39,6 +47,7 @@ main {
                 border: 2px goldenrod solid;
                 width: 85%;
                 height: 90%;
+                text-align: justify;
             }
         }
     }
