@@ -1,3 +1,18 @@
 @media only screen and (min-width: 1400px) {
-    
+    main {
+        article {
+            align-items: center;
+            .bank-name-section {
+                width: 85%;
+                justify-content: flex-start;
+                div:first-child {
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+            .bank-name {
+                margin-left: 2%;
+            }
+        }
+    }
 }
