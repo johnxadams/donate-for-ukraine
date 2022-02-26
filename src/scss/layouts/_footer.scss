@@ -1,13 +1,15 @@
 footer {
 @include flex-column-jcEvenly-aiCenter;
     article{
-        border: wheat 2px solid;
+        // border: wheat 2px solid;
         width: 80%;
         height: 35%;
+        font-weight: 600;
     }
     article:first-child {
         background-color: #013975 ;
         @include flex-jcCenter-aiCenter;
+        color: #9e8619;
     }
     article:nth-child(2) {
         background-color: #9e8619;
@@ -15,14 +17,28 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3%;
         div:first-child {
-            border: 2px white dotted;
+            // border: 2px white dotted;
             width: 70%;
             height: 4rem;
             @include flex-jcCenter-aiCenter;
         }
     }
+    .inpiration-link {
+        text-align: center;
+        margin-bottom: 5%;
+        color: grey;
+        a:link,
+        a:visited {
+            text-decoration: underline;
+            font-weight: 600;
+            color: wheat;
+        }
+    }
     .author-line {
         color: rgb(163, 163, 163);
+        margin-bottom: 5%;
+        font-size: 13px;
     }
 }

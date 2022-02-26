@@ -33,7 +33,7 @@ main {
                 border: 2px red dashed;
                 width: 14rem;
                 height: 3rem;
-                @include flex-jcCenter-aiCenter;
+                @include flex-jcStart-aiCenter;
                 font-size: 15px;
                 a:link,
                 a:visited {
@@ -55,6 +55,11 @@ main {
                 border: 2px goldenrod solid;
                 width: 85%;
                 height: 90%;
+                p {
+                    font-style: italic;
+                    font-size: 13px;
+                    margin-top: 2%;
+                }
             }
         }
     }
