@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.body-grid {
+  display: grid;
+  max-width: 100vw;
+  height: 50vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 27vh 160vh 40vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  grid-area: header;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #3f3434;
+}
+
+header {
+  font-family: "inter", "sans-serif";
+  font-weight: 600;
+}
+header .ukraine-flag-blue {
+  width: 100%;
+  height: 50%;
+  background-color: #0258B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+header .ukraine-flag-yellow {
+  width: 100%;
+  height: 50%;
+  background-color: #F6CF25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: "inter", "sans-serif";
+}
+main article {
+  border: 5px black solid;
+  width: auto;
+  height: 32vh;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+}
+main article .bank-name-section {
+  border: 2px blue dashed;
+  width: auto;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main article .bank-name-section div:first-child {
+  border: 2px green dashed;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main article .bank-name-section div:first-child img {
+  object-fit: cover;
+  width: 3rem;
+}
+main article .bank-name-section .bank-name {
+  border: 2px red dashed;
+  width: 14rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+main article .bank-name-section .bank-name a:link,
+main article .bank-name-section .bank-name a:visited {
+  text-decoration: none;
+  color: #0258B5;
+  font-weight: 600;
+}
+main article .bank-info-section-container {
+  border: 2px goldenrod dashed;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main article .bank-info-section-container div:first-child {
+  border: 2px goldenrod solid;
+  width: 85%;
+  height: 95%;
+}
+main article .bank-info-section-container div:first-child p {
+  font-style: italic;
+  font-size: 13px;
+  margin-top: 2%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer article {
+  width: 80%;
+  height: 35%;
+  font-weight: 600;
+}
+footer article:first-child {
+  background-color: #013975;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9e8619;
+}
+footer article:nth-child(2) {
+  background-color: #9e8619;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+footer article:nth-child(2) div:first-child {
+  width: 70%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .inpiration-link {
+  text-align: center;
+  margin-bottom: 5%;
+  color: grey;
+}
+footer .inpiration-link a:link,
+footer .inpiration-link a:visited {
+  text-decoration: underline;
+  font-weight: 600;
+  color: wheat;
+}
+footer .author-line {
+  color: #a3a3a3;
+  margin-bottom: 5%;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 1400px) {
+  main article {
+    align-items: center;
+  }
+  main article .bank-name-section {
+    width: 85%;
+    justify-content: flex-start;
+  }
+  main article .bank-name-section div:first-child {
+    width: 4rem;
+    height: 4rem;
+  }
+  main article .bank-name {
+    margin-left: 2%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  body .body-grid {
+    width: 80vw;
+  }
+}
+body {
+  max-width: 100%;
+  height: 100vh;
+  font-family: "inter", "sans-serif";
+}
+
+/*# sourceMappingURL=main.css.map */
