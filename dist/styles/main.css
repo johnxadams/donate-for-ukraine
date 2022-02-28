@@ -192,6 +192,9 @@ footer .author-line {
   main article .bank-name {
     margin-left: 2%;
   }
+  main article .bank-info-section-container .bank-info {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 1400px) {
   body {
