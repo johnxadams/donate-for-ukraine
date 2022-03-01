@@ -194,6 +194,25 @@ footer .author-line {
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 560px) {
+  main article {
+    align-items: center;
+  }
+  main article .bank-name-section {
+    width: 85%;
+    justify-content: flex-start;
+  }
+  main article .bank-name-section div:first-child {
+    width: 4rem;
+    height: 4rem;
+  }
+  main article .bank-name {
+    margin-left: 2%;
+  }
+  main article .bank-info-section-container .bank-info {
+    font-size: 20px;
+  }
+}
 @media only screen and (min-width: 1400px) {
   body {
     display: flex;
