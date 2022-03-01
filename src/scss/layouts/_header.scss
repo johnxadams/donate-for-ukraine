@@ -1,17 +1,19 @@
 header {
     font-family: $font-family-inter;
     font-weight: 600;
+    background: -prefix-linear-gradient(top, $ukraine-blue, $ukraine-yellow);
+    background: linear-gradient(to bottom, $ukraine-blue, $ukraine-yellow);
     .ukraine-flag-blue {
         width: 100%;
         height: 50%;
-        background-color: $ukraine-blue;
+        // background-color: $ukraine-blue;
         @include flex-jcCenter-aiCenter;
         font-size: 2rem;
     }
     .ukraine-flag-yellow {
         width: 100%;
         height: 50%;
-        background-color: $ukraine-yellow;
+        // background-color: $ukraine-yellow;
         @include flex-jcCenter-aiCenter;
         font-size: 2rem;
         margin-bottom: 2%;

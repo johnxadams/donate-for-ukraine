@@ -3,14 +3,16 @@ main {
         flex-direction: column;
         font-family: $font-family-inter;
         article {
-        border: 5px black solid;
+        border: 2px black solid;
         width: auto;
         height: 32vh;
+        margin-top: 1%;
         margin-bottom: 4%;
         @include flex-column;
+        box-shadow: 2px 2px 3px gray;
 
         .bank-name-section {
-            border: 2px blue dashed;
+            // border: 2px blue dashed;
             width: auto;
             height: 40%;
             display: flex;
@@ -18,7 +20,7 @@ main {
             align-items: center;
             justify-content: space-evenly;
             div:first-child {
-                border: 2px green dashed;
+                border: 2px rgb(73, 73, 73) solid;
                 width: 3rem;
                 height: 3rem;
                 border-radius: 50%;
@@ -30,7 +32,7 @@ main {
                 }
             }
             .bank-name {
-                border: 2px red dashed;
+                // border: 2px red dashed;
                 width: 14rem;
                 height: 3rem;
                 @include flex-jcStart-aiCenter;
@@ -45,14 +47,14 @@ main {
             }
         }
         .bank-info-section-container {
-            border: 2px goldenrod dashed;
+            // border: 2px goldenrod dashed;
             width: 100%;
             height: 75%;
             display: flex;
             align-items: center;
             justify-content: center;
             div:first-child {
-                border: 2px goldenrod solid;
+                // border: 2px goldenrod solid;
                 width: 85%;
                 height: 95%;
                 p {
