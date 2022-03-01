@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;500;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ footer {
 }
 
 header {
-  font-family: "inter", "sans-serif";
+  font-family: "inter", "Helvetica", "Open-Sans", "sans-serif";
   font-weight: 600;
   background: -prefix-linear-gradient(top, #0258B5, #F6CF25);
   background: linear-gradient(to bottom, #0258B5, #F6CF25);
@@ -60,7 +61,7 @@ header .ukraine-flag-yellow {
 main {
   display: flex;
   flex-direction: column;
-  font-family: "inter", "sans-serif";
+  font-family: "inter", "Helvetica", "Open-Sans", "sans-serif";
 }
 main article {
   border: 2px black solid;
@@ -225,7 +226,7 @@ footer .author-line {
 body {
   max-width: 100%;
   height: 100vh;
-  font-family: "inter", "sans-serif";
+  font-family: "inter", "Helvetica", "Open-Sans", "sans-serif";
 }
 
 /*# sourceMappingURL=main.css.map */
