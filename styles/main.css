@@ -39,6 +39,8 @@ header {
   font-weight: 600;
   background: -prefix-linear-gradient(top, #0258B5, #F6CF25);
   background: linear-gradient(to bottom, #0258B5, #F6CF25);
+  box-shadow: 2px 2px 3px gray;
+  border-radius: 3px;
 }
 header .ukraine-flag-blue {
   width: 100%;
@@ -65,6 +67,7 @@ main {
 }
 main article {
   border: 2px black solid;
+  border-radius: 3px;
   width: auto;
   height: 32vh;
   margin-top: 1%;
@@ -137,28 +140,26 @@ footer {
   margin-top: 2%;
 }
 footer article {
+  border: wheat 2px solid;
   width: 80%;
   height: 35%;
   font-weight: 600;
 }
 footer article:first-child {
-  background-color: #013975;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #9e8619;
-}
-footer article:nth-child(2) {
-  background-color: #9e8619;
   display: flex;
   flex-direction: column;
+}
+footer article:first-child div:first-child {
+  background-color: #013975;
+  color: #9e8619;
+  height: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3%;
 }
-footer article:nth-child(2) div:first-child {
-  width: 70%;
-  height: 4rem;
+footer article:first-child div:nth-child(2) {
+  background-color: #9e8619;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
