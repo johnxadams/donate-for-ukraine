@@ -95,6 +95,9 @@ main article .bank-name-section div:first-child img {
   object-fit: cover;
   width: 3rem;
 }
+main article .bank-name-section div:first-child .logo-seebruecke {
+  width: 5rem;
+}
 main article .bank-name-section .bank-name {
   width: 14rem;
   height: 3rem;
