@@ -3,6 +3,8 @@ header {
     font-weight: 600;
     background: -prefix-linear-gradient(top, $ukraine-blue, $ukraine-yellow);
     background: linear-gradient(to bottom, $ukraine-blue, $ukraine-yellow);
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 3px;
     .ukraine-flag-blue {
         width: 100%;
         height: 50%;
