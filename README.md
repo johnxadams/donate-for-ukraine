@@ -5,7 +5,15 @@
 
 ---
 
-![Screenshot from Project](./src/images/project-screenshot.png)
+<center> 
+<h4>desktop-version</h4>
+<img src="./src/images/screenshot-desktop.png" alt="screenshot-desktop-version"  /> 
+
+<h4>mobile-version</h4>
+<img src="./src/images/screenshot-mobile.jpg" alt="drawing" width="50%" /> 
+</center>
+
+---
 
 #### Navigation
 
