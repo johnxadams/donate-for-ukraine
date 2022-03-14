@@ -1,7 +1,7 @@
 # project: donate-for-ukraine
 
+**<a href="https://johnxadams.github.io/donate-for-ukraine/" target="_blank">click here to view the page </a>**
 
-**[click here to view the page](https://johnxadams.github.io/donate-for-ukraine/)**
 
 ---
 
@@ -49,7 +49,7 @@ On the page are some payment methods listed you can use to donate. Also you can 
 
 - [x] _HTML5_
 - [x] _CSS3_
-- [x] _SASS_
+- [ ] _SASS_
 - [x] _SCSS_
 - [ ] _JavaScript_
 - [ ] _React_
@@ -69,8 +69,8 @@ GitHub: [johnxadams](https://github.com/johnxadams)<br>
 ### Used Tools
 
 <!-- - [icons](https://) -->
+<!-- - [Google Fonts](https://fonts.google.com/) -->
 - [npm](https://www.npmjs.com/)
-- [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Gravit Design](https://designer.gravit.io/)
 - [ColorZilla](https://www.colorzilla.com/chrome/)
