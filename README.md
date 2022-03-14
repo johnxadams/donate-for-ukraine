@@ -1,7 +1,7 @@
 # project: donate-for-ukraine
 
 
-**[view the page](https://johnxadams.github.io/donate-for-ukraine/)**
+**[click here to view the page](https://johnxadams.github.io/donate-for-ukraine/)**
 
 ---
 
